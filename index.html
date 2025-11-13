@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varfolomiy Yasenoviy | Portfolio</title>
+    <!-- Подключаем Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Подключаем шрифт Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Кастомные стили для темной темы и шрифтов */
+        body {
+            background-color: #0A0A0A; /* Чуть мягче, чем чисто черный */
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Стиль для заголовков разделов */
+        .section-header {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        /* Плавные переходы для ссылок */
+        a {
+            transition: color 0.2s ease-in-out;
+        }
+    </style>
+</head>
+<body class="text-gray-200 antialiased">
+
+    <!-- 
+      Контейнер для всего контента. 
+      mx-auto - центрирует по горизонтали
+      max-w-3xl - ограничивает максимальную ширину для читаемости
+      px-4 sm:px-8 py-12 sm:py-24 - отступы по бокам и сверху/снизу
+    -->
+    <main class="max-w-3xl mx-auto px-4 sm:px-8 py-12 sm:py-24">
+
+        <!-- СЕКЦИЯ: ХЕДЕР -->
+        <header>
+            <!-- Имя -->
+            <h1 class="text-3xl sm:text-5xl font-bold text-white tracking-tight">
+                VARFOLOMIY YASENOVIY
+            </h1>
+            
+            <!-- Должность -->
+            <p class="mt-2 text-lg sm:text-xl font-medium text-gray-400">
+                Trainee Data Scientist / Python Developer
+            </p>
+            
+            <!-- Контакты -->
+            <div class="mt-6 text-base text-gray-300 space-y-2">
+                <p>
+                    <a href="mailto:yasenvarf@gmail.com" class="hover:text-white">yasenvarf@gmail.com</a>
+                </p>
+                <p>+48 881 641 527</p>
+            </div>
+
+            <!-- Ссылки с иконками -->
+            <div class="mt-6 flex items-center space-x-5">
+                <a href="https://github.com/yava-code" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white" aria-label="GitHub">
+                    <!-- Inline SVG для GitHub -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.489.5.09.682-.218.682-.484 0-.238-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.446-1.27.098-2.645 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.84c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.026 2.747-1.026.546 1.375.202 2.392.1 2.645.64.698 1.028 1.59 1.028 2.682 0 3.842-2.338 4.685-4.566 4.935.359.31.678.92.678 1.854 0 1.338-.012 2.419-.012 2.746 0 .268.18.578.688.48C19.138 20.16 22 16.413 22 12c0-5.523-4.477-10-10-10Z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/varfolomiy-yasenoviy-a0209a2a3/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white" aria-label="LinkedIn">
+                    <!-- Inline SVG для LinkedIn -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-1.33-.024-3.048-1.857-3.048-1.857 0-2.141 1.449-2.141 2.949v5.703h-3v-11h2.871v1.313h.04c.396-.75 1.363-1.532 2.831-1.532 3.021 0 3.579 1.987 3.579 4.57v6.649z" />
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <!-- Разделитель -->
+        <hr class="my-12 border-gray-800">
+
+        <!-- СЕКЦИЯ: ПРОФИЛЬ -->
+        <section class="mb-12">
+            <h2 class="text-sm font-medium tracking-widest uppercase section-header text-gray-500">// PROFILE</h2>
+            <div class="mt-4 text-gray-300 leading-relaxed text-base">
+                <p>
+                    Computer Science student at Vistula University with a strong focus on Python, Machine Learning, and Artificial Intelligence. I am looking for a Trainee position to apply my skills in real-world projects. Highly motivated to learn, adapt, and solve complex problems.
+                </p>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ: ОБРАЗОВАНИЕ -->
+        <section class="mb-12">
+            <h2 class="text-sm font-medium tracking-widest uppercase section-header text-gray-500">// EDUCATION</h2>
+            <div class="mt-4 text-gray-300 leading-relaxed text-base">
+                <p class="font-semibold text-white">Vistula University | Warsaw, Poland</p>
+                <p class="text-gray-400">Computer Science (Bachelor's)</p>
+                <p class="mt-2">Focus: Data Science, AI fundamentals.</p>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ: СТЕК ТЕХНОЛОГИЙ -->
+        <section class="mb-12">
+            <h2 class="text-sm font-medium tracking-widest uppercase section-header text-gray-500">// TECH STACK</h2>
+            <div class="mt-4 flex flex-wrap gap-2">
+                <!-- "Таблетки" со скиллами -->
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">Python</span>
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">Machine Learning</span>
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">Data Science (basics)</span>
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">Deep Learning (basics)</span>
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">Git & GitHub</span>
+                <span class="inline-block bg-gray-800 text-gray-200 rounded-full px-4 py-2 text-sm font-medium">HTML/CSS</span>
+            </div>
+        </section>
+
+        <!-- СЕКЦИЯ: ОПЫТ И ПРОЕКТЫ -->
+        <section>
+            <h2 class="text-sm font-medium tracking-widest uppercase section-header text-gray-500">// EXPERIENCE & PROJECTS</h2>
+            <div class="mt-4 text-gray-300 leading-relaxed text-base space-y-4">
+                <p class="font-semibold text-white">University & Pet Projects</p>
+                <ul class="list-disc list-outside pl-5 space-y-2 text-gray-400">
+                    <li>Developed several projects using Python and ML libraries.</li>
+                    <li>Experience working in teams on academic IT assignments.</li>
+                    <li>Constantly self-educating in AI and Data Analysis.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ФУТЕР -->
+        <footer class="mt-24 text-center">
+            <p class="text-base text-gray-400">Ready to join immediately for an internship or trainee role.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
